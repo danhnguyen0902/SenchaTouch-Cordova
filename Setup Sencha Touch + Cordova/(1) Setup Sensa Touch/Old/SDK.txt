@@ -1,0 +1,5 @@
+Integrate Sencha with/into PhoneGap:
+http://phonegap.com/blog/2013/11/20/SenchaPhoneGap/
+
+or Chrome Developer Tools:
+http://proquest.safaribooksonline.com.ezproxy.lib.vt.edu:8080/book/programming/android/9781430232766/debugging-android-web-apps/debugging_with_the_google_chrome_develop

@@ -1,0 +1,4 @@
+http://www.sencha.com/learn/a-sencha-touch-mvc-application-with-phonegap/
+
+Sencha Touch: mo app va chay app tren browser
+PhoneGap: install app tren dt roi chay app tren browser cua dien thoai ah?

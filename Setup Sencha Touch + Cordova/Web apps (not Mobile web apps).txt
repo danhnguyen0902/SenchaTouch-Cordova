@@ -1,0 +1,3 @@
+Building Web Apps with the MEAN Stack: Mongo, Express, Angular & Node Workshop
+
+http://fitc.ca/presentation/building-web-apps-with-the-mean-stack-mongo-express-angular-node-2/

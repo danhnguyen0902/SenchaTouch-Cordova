@@ -1,0 +1,15 @@
+http://en.wikipedia.org/wiki/Sencha_Touch
+
+
+"Native applications on mobile devices have access to device components such as the compass, and microphone[3] which Sencha Touch can access through the use of a native shell such as Cordova."
+
+-----> used for Hybrid apps
+
+
+However:
+
+"Sencha Touch can be used along with Cordova or Phonegap or its own native packager, to create applications native to a mobile device that have access to currently native-only components, and which can be made available from app marketplaces."
+
+
+
+"As of Sencha Touch 2.3, Cordova is the favored packaging technology."

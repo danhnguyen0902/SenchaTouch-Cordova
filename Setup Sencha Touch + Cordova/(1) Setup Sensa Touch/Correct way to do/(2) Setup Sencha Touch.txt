@@ -1,0 +1,14 @@
+1. Download Sencha Cmd here:
+http://www.sencha.com/products/sencha-cmd/download
+
+2. Download Sencha Touch SDK here (Sencha Touch 2.3.1):
+http://www.sencha.com/products/touch/download/sencha-touch-2.3.1/3015
+
+(Don't need to download the Sencha Touch Tools SDK)
+
+3. Extract those 2 downloaded files
+  a. Install Sencha Cmd (after doing it, we will be able to use the "sencha" command in any directory when using command prompt)
+  b. Copy Touch-2.3.1 folder to C:\xampp\htdocs (the localhost) for convenience
+
+VIDEO for creating a new sencha project (at the end of the video):
+http://www.youtube.com/watch?v=ANBltocd9wI

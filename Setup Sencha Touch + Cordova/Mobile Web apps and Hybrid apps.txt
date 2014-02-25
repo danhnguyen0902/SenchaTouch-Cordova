@@ -1,0 +1,39 @@
+http://www.nngroup.com/articles/mobile-native-apps/
+
+
+Mobile web apps:
+- are server-side apps
+- When we talk about mobile web apps in this article, we’re referring to Internet-enabled apps that have specific functionality for mobile devices. They’re accessed through the mobile device’s web browser (i.e. on the iPhone, this is Safari by default) and they don’t need to be downloaded and installed on the device.
+http://sixrevisions.com/mobile/native-app-vs-mobile-web-app-comparison/
+(Neu mo 1 trang web tren browser dien thoai (safari cua iphone chang han), vd FB di, cai minh xem chinh la mobile web app. Nhung ma con tuy, nhieu khi cai trang web minh mo khong co ho tro mobile web apps thi no van chi la 1 trang web binh thuong thoi. Va neu minh mo FB tren browser cua tablet (Chrome cua Nexus 7 chang han) thi do se la 1 trang web, khong phai mobile web app, tai vi Nexus 7 la tablet, ko phai mobile)
+
+---> if you have a website on your own, you can make a mobile web app easily by using any server-side technology (PHP, Node.js, ASP.NET) that render HTML that has been styled so that it renders well on a device form factor.
+http://www.icenium.com/blog/icenium-team-blog/2012/06/14/what-is-a-hybrid-mobile-app-
+
+
+
+
+Hybrid apps:
+- like native apps, run on the device, be able to access many device's features that Mobile web apps can't access.
+- and like mobile web apps, are written with web technologies (HTML5, CSS and JavaScript).
+- Hybrid apps use a web view control (UIWebView on iOS, WebView on Android and others) to present the HTML and JavaScript files in a full-screen format, using the native browser rendering engine (not the browser itself). WebKit is the browser rendering engine that is used on iOS, Android, Blackberry and others. 
+http://www.icenium.com/blog/icenium-team-blog/2012/06/14/what-is-a-hybrid-mobile-app-
+
+
+
+
+
+Native apps:
+- Vd: FB app tren iphone, Nexus 7, app store
+- Chac cung dung webviews: "Installed and runs as a standalone application (no web browser needed)"
+http://sixrevisions.com/mobile/native-app-vs-mobile-web-app-comparison/
+
+Nhung ma no khong giong hybrid app duoc vi no khong co su dung may cai nhu la WebKit (the browser rendering engine that is used on iOS, Android, Blackberry and others), web-technologies...
+- Hybrid apps are written with web technologies (HTML5, CSS3, Javascript), and have access to native APIs
+- Native apps are written with platform SDKs and definitely have access to all native APIs
+Look at the picture at the end of this link:
+http://www.icenium.com/blog/icenium-team-blog/2012/06/14/what-is-a-hybrid-mobile-app-
+
+
+
+--------> app ma cai tren may, phai la hybrid app hoac la native app, khong the nao la mobile web app

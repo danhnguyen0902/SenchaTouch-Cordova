@@ -1,0 +1,136 @@
+TUTORIAL:
+
+http://sensai-touch.com/building-an-ios-and-android-app-with-sencha-touch-2-3-and-cordova/#comment-61
+(Video recommended in the tutorial: http://vimeo.com/76568053
+video co chi ca cach setup sencha touch + phonegap nua)
+
+(Tutorials recommended in the video: http://cordova.apache.org/docs/en/2.9.0/guide_getting-started_android_index.md.html#Android%20Platform%20Guide
+Co the coi them cai iOS Platform Guide de tim ra nguyen nhan tai sao npm install -g ios-sim lai khong hoat dong. Minh nghi chac chi can cai iOS SDK roi tao 1 cai emulator/simulator thoi, giong nhu minh lam voi Android SDK do)
+
+Cai NodeJS: http://nodejs.org/download/
+
+[DELETE
+cd C:\Program Files\nodejs
+npm install -g cordova@3.3.0-rc.1
+
+cd C:\Users\DANH\bin\Sencha\Cmd\4.0.1.45
+sencha
+
+sencha -sdk C:\xampp\htdocs\sensaTouch\touch-2.3.1 generate app DanhApp C:\xampp\htdocs\sensaTouch\danhapp
+
+cd C:\xampp\htdocs\sensaTouch\danhapp
+sencha web start
+sencha cordova init com.program.danhapp DanhApp
+/DELETE]
+
+(CHANG CAN PHAI VAO THANG FOLDER MA GOI MAY CAI COMMAND NUA, GOI LIEN KHI MOI BAT COMMAND PROMPT LUON)
+npm install -g cordova@3.3.0-rc.1
+npm install -g cordova
+sencha -sdk C:\xampp\htdocs\touch-2.3.1 generate app MyApp C:\xampp\htdocs\myapp
+cd C:\xampp\htdocs\myapp
+sencha cordova init com.program.myapp MyApp
+
+Now, NOT using command prompt, go to C:\Users\DANH\stc folder ----> open the cordova.local.properties file ---> add android to cordova.platforms=ios, we'll have something like this: 
+cordova.platforms=ios android
+
+Go back to command prompt:
+sencha app build -run native
+---> ERRORS
+FIX:
+
+ruby:
+http://www.sencha.com/forum/showthread.php?264791-architect-build-errors-ruby
+http://cs.calvin.edu/curriculum/cs/112/resources/installingEclipse/path/
+(add to System Variables Path, not User Variables)
+restart sencha architect
+
+
+install Apache Ant:
+http://www.nczonline.net/blog/2012/04/12/how-to-install-apache-ant-on-windows/
+http://www.youtube.com/watch?v=arTLYV3_po4
+
+fix error of running ant in cmd:
+1. unable to locate....
+http://stackoverflow.com/questions/5730815/unable-to-locate-tools-jar
+System Variables, New... Example:
+Variable Name:JAVA_HOME
+Variable Value: C:\Program Files\Java\jdk1.7.0_21
+2. build.xml does not exist!
+http://ant.apache.org/manual/install.html
+----> KHONG WAN TRONG DAU, DUNG QUAN TAM CAI LOI DO:
+http://stackoverflow.com/questions/7528517/ant-build-xml-file-doesnt-exist
+
+
+add to System Variables: Path:
+E:\ANDROID-SDK\adt-bundle-windows-x86_64-20130729\sdk\tools
+E:\ANDROID-SDK\adt-bundle-windows-x86_64-20130729\sdk\platform-tools
+
+(Full copy of Path: 
+C:\Users\DANH\bin\Sencha\Cmd\4.0.1.45;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\blp\API\dde;C:\blp\API;C:\Program Files\nodejs\;C:\Ruby193\bin\;;E:\ANDROID-SDK\adt-bundle-windows-x86_64-20130729\sdk\platform-tools;E:\ANDROID-SDK\adt-bundle-windows-x86_64-20130729\sdk\tools;%JAVA_HOME%\bin;%ANT_HOME%\bin
+)
+
+
+npm install -g ios-sim
+(still not works)
+----> bo ios trong cai file cordova.local.properties di, bay h no se la:
+cordova.platforms=android
+
+
+Build lai:
+nho vao Eclipse tao lai 1 cai emulator (luc minh vao thi thay chang con cai emulator nao ca! Weird), mo emulator len luon. Khong mo no se khong chay duoc.
+cd C:\xampp\htdocs\myapp
+sencha app build -run native
+Neu khong dc nua thi lam theo RossGerbasi comment:
+http://www.sencha.com/forum/showthread.php?272473
+
+----> XONG, doc tiep
+
+
+Now using Cordova
+sua file app.js
+cd cordova
+cordova plugin add org.apache.cordova.device
+
+sencha app build -run native
+
+----> DONEEEEEEEEEEEEEEEEE!
+
+LUU Y:
+- Buoc nay kha quan trong doi voi iOS:
+sencha cordova init AppID AppName
+(Phai dang ki app tren Apple's portal va dung cai AppID ma no dua cho de type vao cau lenh tren)
+- Minh con co  the lam y chang cho phonegap:
+sencha phonegap init AppID AppName
+(http://vimeo.com/76568053)
+
+Tham khao them:
+
+http://docs.sencha.com/touch/2.3.0/#!/guide/cordova
+(Phan biet Cordova va Phonegap)
+
+http://cordova.apache.org/docs/en/2.9.0/guide_getting-started_ios_index.md.html#iOS%20Platform%20Guide
+
+So sanh 2 trang web documentation:
+Cordova:
+http://cordova.apache.org/docs/en/2.9.0/guide_overview_index.md.html#Overview
+
+phonegap:
+http://docs.phonegap.com/en/3.3.0/index.html
+
+(2 trang nay khong khac nhau la may
+http://cordova.apache.org/docs/en/2.9.0/guide_getting-started_android_index.md.html#Android%20Platform%20Guide
+
+http://docs.phonegap.com/en/3.3.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide
+(phonegap ma toan dung lenh cua cordova)
+)
+
+
+
+IMPORT TO ECLIPSE:
+Try to import the myapp project into Android Eclipse and run the project directly from Eclipse. 
+Import: Chon ca 2 cai (MyApp va MyApp-CordovaLib), uncheck cai Copy projects into Eclipse. Sau do no co bao loi gi cung ko sao ca. Chuong trinh se van chay binh thuong.
+
+
+
+
+

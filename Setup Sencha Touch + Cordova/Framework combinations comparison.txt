@@ -1,0 +1,3 @@
+http://stackoverflow.com/questions/14166038/use-a-web-mobile-framework
+
+http://altabel.wordpress.com/2012/09/02/phonegap-apache-cordova-sencha-touch-appcelerator-titanium-what-is-it/

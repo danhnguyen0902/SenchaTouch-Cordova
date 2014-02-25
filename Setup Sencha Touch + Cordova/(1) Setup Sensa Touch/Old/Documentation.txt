@@ -1,0 +1,3 @@
+http://www.sencha.com/learn/a-sencha-touch-mvc-application-with-phonegap/
+
+http://mobile.tutsplus.com/tutorials/mobile-web-apps/getting-started-with-sencha-touch-2/

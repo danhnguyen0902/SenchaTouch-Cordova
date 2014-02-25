@@ -1,0 +1,14 @@
+1/. http://stackoverflow.com/questions/18300377/xampp-apache-error-apache-shutdown-unexpectedly
+
+OR
+
+2/. http://www.youtube.com/watch?v=c1m56HZRwuk
+
+(I used 1/., then I installed UniServer (WAMP), then I used 2/., but the localhost didn't work, so I unistalled UniServer (simply deleted everything), undo everything in 2/. ---> It worked again)
+
+UniServer (WAMP) can cause that problem.
+
+
+
+
+In short, don't install UniServer, and use 1/. is enough

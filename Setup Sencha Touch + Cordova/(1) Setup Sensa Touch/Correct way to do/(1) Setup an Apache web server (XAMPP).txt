@@ -1,0 +1,23 @@
+1. Set up LocalHost using XAMPP 
+http://www.youtube.com/watch?v=kkSG19gQamc
+
+Errors that we could run into:
+"Apache shutdowns unexpectedly"
+"mySQL shutdowns unexpectedly"
+
+Solutions:
+a. http://stackoverflow.com/questions/18300377/xampp-apache-error-apache-shutdown-unexpectedly
+OR
+b. http://www.youtube.com/watch?v=c1m56HZRwuk
+
+(I used a., then I installed UniServer (WAMP), then I used b., but the localhost didn't work, so I unistalled UniServer (simply deleted everything), undo everything I did in b. ---> It worked again)
+UniServer (WAMP) can cause that problem. In short, don't install UniServer, and use a. is enough!
+
+AUTHENTICATION I use:
+danh0902
+Micadangiu#1
+
+
+
+2. Set up Virtual Host:
+http://www.youtube.com/watch?v=evcXfggwYhA

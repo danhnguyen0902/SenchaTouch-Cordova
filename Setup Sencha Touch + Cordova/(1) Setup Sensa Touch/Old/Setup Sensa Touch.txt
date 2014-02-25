@@ -1,0 +1,29 @@
+bin: sencha CMD ----> used later
+/Users/peter/Sites/senchaTouch: .../xamp/httDocs -----> try touch .... -----> deo co
+
+
+SDK-tools is in: C:\Program Files (x86)\SenchaSDKTools-2.0.0-beta3 -----> USELESS FOR NOW
+
+Sencha CMD is in: C:\Users\DANH\bin
+
+localhost = C:\xampp\htdocs
+
+phai co virtualhost thi sencha trong touch-2.3.1 moi chay duoc
+----> virtual host giong nhu 1 cai gi do connect sencha CMD and touch-2.3.1 (chinh xac la Sencha Touch 2.3.1 - 1 loai SDK)
+----> WRONG! Cai sencha CMD xong la xai sencha thoai mai o dau cung duoc
+
+We can change the localhost directory by going into the httpd.conf file and change the value of the DocumentRoot. 
+NOTE: It will be applied after we restart the computer.
+
+
+Videos:
+Set up LocalHost using XAMPP 
+http://www.youtube.com/watch?v=kkSG19gQamc
+
+Virtual Host:
+http://www.youtube.com/watch?v=evcXfggwYhA
+
+Set up Sensa Touch project
+http://www.youtube.com/watch?v=ANBltocd9wI
+
+
